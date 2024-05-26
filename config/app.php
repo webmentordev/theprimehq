@@ -17,6 +17,10 @@ return [
 
     'storage' => env('STORAGE', './public/storage'),
 
+    'contact' => env('CONTACT', ''),
+    
+    'purchase' => env('PURCHASE', ''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

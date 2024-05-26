@@ -2,8 +2,9 @@
 
 namespace App\Livewire;
 
-use App\Models\Contact as ContactForm;
 use Livewire\Component;
+use Illuminate\Support\Facades\Http;
+use App\Models\Contact as ContactForm;
 
 class Contact extends Component
 {
@@ -38,6 +39,13 @@ class Contact extends Component
                 'message' => $this->message
             ]);
             $this->reset(['name', 'email', 'subject', 'message', 'answer']);
+            $content = "**Email:** $this->email\n"
+            . "**Name:** $this->name\n"
+            . "**Subject:** $this->subject\n"
+            . "**Message:** $this->message";
+            Http::post(config('app.contact'), [
+                'content' => $content
+            ]);
             session()->flash('success', __('messages.contact.success'));
         }else{
             $this->reset(['answer']);

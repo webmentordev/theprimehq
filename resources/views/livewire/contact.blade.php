@@ -4,6 +4,9 @@
         <p class="mb-6">{{ __('messages.contact.text') }}</p>
         <div class="grid grid-cols-2 gap-6">
             <form wire:submit='createMessage' method="post" class="w-full">
+                <div wire:loading wire:target='createMessage'>
+                    <x-processing message="{{ __('messages.processing') }}" />
+                </div>
                 @session('success')
                     <x-success message="{{ $value }}" />
                 @endsession
@@ -30,7 +33,7 @@
                 <div class="flex flex-col">
                     <div class="flex items-center mb-1">
                         <p class="text-center">{{ __('messages.contact.verify', [ 'first' => $first,  'second' => $last]) }}</p>
-                        <x-input id="number" type="number" wire:model='answer' class="max-w-[60px] py-1 px-2 ml-2 mb-0" />
+                        <x-input id="number" type="number" wire:model='answer' class="max-w-[80px] py-1 px-2 ml-2 mb-0" />
                     </div>
                     <x-input-error :messages="$errors->get('answer')" class="mt-2" />
                 </div>

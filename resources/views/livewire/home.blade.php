@@ -15,12 +15,31 @@
         </div>
     </div>
 
-    <div class="max-w-7xl m-auto py-6 px-4">
-        <h1 class="font-bold">{{ __('messages.features') }}</h1>
+    <div class="max-w-7xl m-auto py-6 px-4 grid grid-cols-2 gap-6">
+        <img src="{{ asset('images/products/the-prime-hq-car-towels-1.png') }}" class="w-full rounded-lg" title="{{ __('messages.features.feature') }}" alt="{{ __('messages.features.feature') }}">
+        <div class="py-6 px-4">
+            <h1 class="font-bold text-4xl mb-3 pb-4 border-b border-gray-200">{{ __('messages.features.product') }}</h1>
+            <p class="leading-7 mb-4">{{ __('messages.features.para') }}</p>
+            <ul class="list-disc ml-8">
+                <li class="mb-2">{{ __('messages.features.f1') }}</li>
+                <li class="mb-2">{{ __('messages.features.f2') }}</li>
+                <li class="mb-2">{{ __('messages.features.f3') }}</li>
+                <li class="mb-2">{{ __('messages.features.f4') }}</li>
+                <li class="mb-2">{{ __('messages.features.f5') }}</li>
+                <li class="mb-2">{{ __('messages.features.f6') }}</li>
+                <li class="mb-2">{{ __('messages.features.f7') }}</li>
+                <li class="mb-2">{{ __('messages.features.f8') }}</li>
+            </ul>
+        </div>
     </div>
 
-    <div class="max-w-7xl m-auto py-6 px-4">
-        <h1 class="font-bold">{{ __('messages.applications') }}</h1>
+    <div class="max-w-7xl m-auto py-6 px-4 grid grid-cols-2 gap-6">
+        <div class="py-6 px-4">
+            <h1 class="font-bold text-4xl mb-3 pb-4 border-b border-gray-200">{{ __('messages.applications.application') }}</h1>
+            <p class="leading-7 mb-4">{{ __('messages.applications.para1') }}</p>
+            <p class="leading-7 mb-4">{{ __('messages.applications.para2') }}</p>
+        </div>
+        <img src="{{ asset('images/products/the-prime-hq-car-towels-2.png') }}" class="w-full rounded-lg" title="{{ __('messages.features.feature') }}" alt="{{ __('messages.features.feature') }}">
     </div>
 
     <div class="max-w-7xl m-auto py-6 px-4">
