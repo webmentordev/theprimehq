@@ -1,0 +1,1 @@
+<img src="{{ asset('images/the-prime-hq-logo.png') }}" width="180px" alt="thePrimeHQ">
