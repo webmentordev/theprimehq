@@ -31,7 +31,30 @@ return [
         'para2' => 'Mikrofaser-Reinigungstücher sind maschinenwaschbar und können hunderte Male wiederverwendet werden, ohne dass sie an Saugfähigkeit verlieren. Waschen und wiederverwenden, ohne dass Sie sich Gedanken über Schrumpfung, Abfall oder Verlust der Reinigungsfähigkeit machen müssen. Ein Handtuch kann viele Male wiederverwendet werden, ohne dass es ausfällt
         Haare oder Verblassen.',
     ],
-    'safe' => 'Sichere Reinigung',
+    'safe' => [
+        'message' => 'Sichere Reinigung',
+        'para' => 'Sichere Reinigung',
+    ],
+    'multipurpose' => [
+        'message' => 'Mehrzweck-Autohandtuch',
+        'para' => 'Wir stellen Ihnen das Mehrzweck-Autoreinigungstuch vor – das perfekte Zubehör, damit Ihr Auto makellos und glänzend aussieht. Dieses Handtuch wurde im Hinblick auf Vielseitigkeit entwickelt und ist Ihre ideale Lösung für alle Ihre Autoreinigungsanforderungen.',
+        'f1' => 'Super saugfähiges Material: Hergestellt aus hochwertiger Mikrofaser',
+        'f2' => 'Weich und sanft: Der weiche, nicht scheuernde Stoff kann sicher auf allen Oberflächen verwendet werden, einschließlich Farbe, Glas und Kunststoff, ohne diese zu zerkratzen oder zu beschädigen.',
+        'f3' => 'Strapazierfähig und langlebig: Dieses Handtuch ist so konzipiert, dass es Hunderten Wäschen standhält und bleibt über einen langen Zeitraum effektiv und zuverlässig.',
+        'f4' => 'Fusselfrei und kratzfrei: Die Oberfläche Ihres Autos bleibt makellos und frei von Fusseln und Kratzern.',
+        'f5' => 'Mehrzweckdesign: Perfekt zum Trocknen, Polieren, Polieren und sogar Reinigen der Innenflächen Ihres Autos.',
+    ],
+
+    'dimensions' => [
+        'message' => 'Produktabmessungen',
+        'title' => 'Auto-Reinigungstuch. Perfekte Produktabmessungen',
+        'para1' => 'Unser Mehrzweck-Autoreinigungstuch ist sorgfältig gefertigt, um eine optimale Leistung bei der Autopflege zu gewährleisten. Mit einer Größe von 40 cm x 40 cm bietet es ein perfektes Gleichgewicht zwischen Abdeckung und Manövrierfähigkeit und ist somit ideal für große und kleine Flächen.',
+        'para2' => 'Die feinen Nähte an den Rändern des Handtuchs sorgen dafür, dass es auch nach längerem Gebrauch intakt und langlebig bleibt. Diese sorgfältige Naht verhindert ein Ausfransen, behält die Form des Handtuchs bei und sorgt für langanhaltende Zuverlässigkeit.',
+        'f1' => 'Trocknen: Groß genug, um ganze Teile Ihres Autos schnell zu trocknen.',
+        'f2' => 'Polieren: Ideal zum Polieren und Polieren, um einen brillanten Glanz zu erzielen.',
+        'f3' => 'Innenreinigung: Praktische Größe, um durch die Innenräume zu navigieren und Armaturenbretter, Konsolen und Sitze effektiv zu reinigen.'
+    ],
+    
     'form' => [
         'email' => 'E-Mail-Adresse',
         'fullname' => 'Vollständiger Name',
