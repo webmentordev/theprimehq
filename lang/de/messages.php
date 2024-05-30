@@ -5,7 +5,11 @@ return [
         'home' => 'Heim',
         'about' => 'Über uns',
         'purchase' => 'Kaufen',
-        'contact' => 'Kontaktiere uns'
+        'contact' => 'Kontaktiere uns',
+        'imprint' => 'Impressum',
+        'terms' => 'Terms & Bedingungen',
+        'return' => 'Rückgaberecht',
+        'privacy' => 'Datenschutzrichtlinie',
     ],
     'shipping' => 'Kostenlose Lieferung am nächsten Tag in ganz Deutschland 🚚',
     'heading' => 'Kaufen Sie professionelle <br> Autopflege- und Badeprodukte',
@@ -19,7 +23,7 @@ return [
         'f2' => 'Einfach zu säubern',
         'f3' => 'Hochwertiges Material',
         'f4' => 'Fussel- und kratzfrei',
-        'f5' => '30*40 cm   (11.81 inch *15.74 inch)',
+        'f5' => '40cm * 40cm   (16 inch * 16 inch)',
         'f6' => 'Ölfett entfernen',
         'f7' => 'Hand- oder maschinenwaschbar',
         'f8' => '500 GSM Gewicht',
@@ -30,6 +34,7 @@ return [
         nach Gebrauch. Hand- oder Maschinenwäsche in warmem Wasser unter 60 °C, getrennt von anderen Artikeln. Verwenden Sie keinen Weichspüler und kein Bleichmittel.',
         'para2' => 'Mikrofaser-Reinigungstücher sind maschinenwaschbar und können hunderte Male wiederverwendet werden, ohne dass sie an Saugfähigkeit verlieren. Waschen und wiederverwenden, ohne dass Sie sich Gedanken über Schrumpfung, Abfall oder Verlust der Reinigungsfähigkeit machen müssen. Ein Handtuch kann viele Male wiederverwendet werden, ohne dass es ausfällt
         Haare oder Verblassen.',
+        'para3' => 'Bleiben Sie kostengünstig mit unseren super wiederverwendbaren und langlebigen Handtüchern, die im Vergleich zu Einweg-Alternativen ein hervorragendes Preis-Leistungs-Verhältnis bieten'
     ],
     'safe' => [
         'message' => 'Sichere Reinigung',
@@ -44,7 +49,6 @@ return [
         'f4' => 'Fusselfrei und kratzfrei: Die Oberfläche Ihres Autos bleibt makellos und frei von Fusseln und Kratzern.',
         'f5' => 'Mehrzweckdesign: Perfekt zum Trocknen, Polieren, Polieren und sogar Reinigen der Innenflächen Ihres Autos.',
     ],
-
     'dimensions' => [
         'message' => 'Produktabmessungen',
         'title' => 'Auto-Reinigungstuch. Perfekte Produktabmessungen',
@@ -54,7 +58,6 @@ return [
         'f2' => 'Polieren: Ideal zum Polieren und Polieren, um einen brillanten Glanz zu erzielen.',
         'f3' => 'Innenreinigung: Praktische Größe, um durch die Innenräume zu navigieren und Armaturenbretter, Konsolen und Sitze effektiv zu reinigen.'
     ],
-    
     'form' => [
         'email' => 'E-Mail-Adresse',
         'fullname' => 'Vollständiger Name',

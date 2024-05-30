@@ -21,6 +21,8 @@ return [
     
     'purchase' => env('PURCHASE', ''),
 
+    'locales' => ['en', 'de'],
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

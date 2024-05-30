@@ -4,7 +4,7 @@
             <div class="h-fit w-full">
                 <h1 class="font-bold text-5xl leading-[60px] mb-3">{!! __('messages.heading') !!}</h1>
                 <p class="mb-6">{{ __('messages.header') }}</p>
-                <a href="{{ route('purchase') }}" wire:navigate class="px-4 py-3 bg-primary rounded-lg w-fit flex items-center text-white font-semibold">
+                <a href="{{ route('purchase', ['locale' => app()->getLocale()]) }}" wire:navigate class="px-4 py-3 bg-primary rounded-lg w-fit flex items-center text-white font-semibold">
                     {{ __('messages.purchase.button') }}
                     <img src="https://api.iconify.design/gravity-ui:shopping-bag.svg?color=%23ffffff" class="ml-2" width="20" alt="Cart icon">
                 </a>
@@ -38,6 +38,7 @@
             <h1 class="font-bold text-4xl mb-3 pb-4 border-b border-gray-200">{{ __('messages.applications.application') }}</h1>
             <p class="leading-7 mb-4">{{ __('messages.applications.para1') }}</p>
             <p class="leading-7 mb-4">{{ __('messages.applications.para2') }}</p>
+            <p class="leading-7 mb-4">{{ __('messages.applications.para3') }}</p>
         </div>
         <img src="{{ asset('images/products/the-prime-hq-car-towels-reusability-and-durability.png') }}" class="w-full rounded-lg" title="{{ __('messages.applications.application') }}" alt="{{ __('messages.features.application') }}">
     </div>
@@ -57,7 +58,7 @@
         </div>
     </div>
 
-    <div class="max-w-7xl m-auto py-6 px-4 grid grid-cols-2 gap-6">
+    <div class="max-w-7xl m-auto pt-6 pb-[100px] px-4 grid grid-cols-2 gap-6">
         <div class="py-6 px-4">
             <h1 class="font-bold text-4xl mb-3 pb-4 border-b border-gray-200">{{ __('messages.dimensions.message') }}</h1>
             <p class="leading-7 mb-4">{{ __('messages.dimensions.para1') }}</p>

@@ -3,7 +3,7 @@
         <h1 class="text-3xl mb-2 font-bold">{{ __('messages.contact.header') }}</h1>
         <p class="mb-6">{{ __('messages.contact.text') }}</p>
         <div class="grid grid-cols-2 gap-6">
-            <form wire:submit='createMessage' method="post" class="w-full">
+            <form wire:submit='createMessage' class="w-full">
                 <div wire:loading wire:target='createMessage'>
                     <x-processing message="{{ __('messages.processing') }}" />
                 </div>
