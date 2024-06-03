@@ -48,8 +48,17 @@
                             <img src="https://api.iconify.design/material-symbols-light:map-sharp.svg?color=%23ffffff" width="30" alt="Address logo">
                         </div>
                         <div class="flex flex-col ml-3">
-                            <h2 class="font-semibold mb-1" title="ThePrimeHQ Address">Office Address</h2>
+                            <h2 class="font-semibold mb-1" title="ThePrimeHQ Address">{{ __('messages.form.address') }}</h2>
                             <span class="text-gray-600 text-sm">5 South Charlotte Street, Edinburgh, Scotland, United Kingdom, EH2 4AN</span>
+                        </div>
+                    </div>
+                    <div class="flex mb-8">
+                        <div class="w-[50px] h-[50px] rounded-full flex items-center p-2 justify-center bg-primary">
+                            <img src="https://api.iconify.design/fa6-brands:whatsapp.svg?color=%23ffffff" width="30" alt="Address logo">
+                        </div>
+                        <div class="flex flex-col ml-3">
+                            <h2 class="font-semibold mb-1" title="ThePrimeHQ Number">{{ __('messages.form.contact') }}</h2>
+                            <span class="text-gray-600 text-sm">+44 746 5614825</span>
                         </div>
                     </div>
                     <div class="flex">
@@ -57,7 +66,7 @@
                             <img src="https://api.iconify.design/fa6-solid:envelope.svg?color=%23ffffff" width="20" alt="Address logo">
                         </div>
                         <div class="flex flex-col ml-3">
-                            <h2 class="font-semibold mb-1" title="ThePrimeHQ Email Address">{{ __('messages.email') }}</h2>
+                            <h2 class="font-semibold mb-1" title="ThePrimeHQ Email Address">{{ __('messages.form.email') }}</h2>
                             <span class="text-gray-600 text-sm">contact(at)theprimehq.com</span>
                         </div>
                     </div>

@@ -5,11 +5,7 @@ return [
         'home' => 'Heim',
         'about' => 'Über uns',
         'purchase' => 'Kaufen',
-        'contact' => 'Kontaktiere uns',
-        'imprint' => 'Impressum',
-        'terms' => 'Terms & Bedingungen',
-        'return' => 'Rückgaberecht',
-        'privacy' => 'Datenschutzrichtlinie',
+        'contact' => 'Kontaktiere uns'
     ],
     'shipping' => 'Kostenlose Lieferung am nächsten Tag in ganz Deutschland 🚚',
     'heading' => 'Kaufen Sie professionelle <br> Autopflege- und Badeprodukte',
@@ -62,7 +58,9 @@ return [
         'email' => 'E-Mail-Adresse',
         'fullname' => 'Vollständiger Name',
         'subject' => 'Thema',
-        'message' => 'Nachricht'
+        'message' => 'Nachricht',
+        'contact' => 'Kontakt Nummer',
+        'address' => 'Büro adresse'
     ],
     'send' => 'Nachricht senden',
     'contact' => [
@@ -78,5 +76,38 @@ return [
         'button' => 'Jetzt Kaufen',
         'outofstock' => 'Das Produkt ist nicht vorrätig',
         'orderplaced' => 'Deine Bestellung wurde aufgenommen!',
+    ],
+    'footer' => [
+        'txt1'=> 'Information',
+        'txt2'=> 'Quicklinks',
+        'terms' => 'Nutzungsbedingungen',
+        'conditions' => 'Terms & Bedingungen',
+        'policy' => 'Datenschutzrichtlinie',
+        'return' => 'Rückgaberecht',
+        'home' => 'Heim',
+        'about' => 'Über uns',
+        'purchase' => 'Kaufen',
+        'contact' => 'Kontaktiere uns',
+        'copyright' => 'Copyright &copy '.date('Y').' Alles reserviert'
+    ],
+    "about" => [
+        'heading' => 'Über ThePrimeHQ LTD',
+        'text' => 'Willkommen bei ThePrimeHQ LTD, Ihrer erstklassigen Quelle für hochwertige Autopflege- und Badeprodukte. ThePrimeHQ LTD ist im Vereinigten Königreich registriert und spezialisiert sich auf die Lieferung von Qualitätsprodukten an Kunden in Großbritannien und Deutschland über diese Website und Amazon.de. Unser Service ist derzeit nur in Deutschland verfügbar.',
+        'number' => '<strong>Company House Number:</strong> SC812138',
+        'address' => '<strong>Registered at:</strong> 5 South Charlotte Street, Edinburgh, Scotland, United Kingdom, EH2 4AN',
+        'point1' => [
+            'head' => 'Warum bei uns einkaufen?',
+            'p1' => 'Qualitätssicherung: Premium-Produkte, die auf Wirksamkeit getestet wurden',
+            'p2' => 'Bequemes Einkaufen: Verfügbar auf Amazon.de und website',
+            'p3' => 'Umweltfreundlich: Natürliche Inhaltsstoffe und recycelbare Verpackungen',
+            'p4' => 'Kundenzufriedenheit: Ein engagiertes Support-Team steht Ihnen zur Verfügung',
+            'p5' => 'Schnelle Lieferung: Lieferung am nächsten Tag in ganz Deutschland und Großbritannien (bald verfügbar)'
+        ],
+        'point2' => [
+            'head' => 'Kontaktieren Sie uns',
+            'p1' => 'Website: theprimehq.com',
+            'p2' => 'Instagram: @ThePrimeHQLTD',
+            'p3' => 'Amazon (Deutschland): https://amazon.de/theprimehq',
+        ]
     ]
 ];

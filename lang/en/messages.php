@@ -60,7 +60,9 @@
         'email' => 'Email Address',
         'fullname' => 'Full Name',
         'subject' => 'Subject',
-        'message' => 'Message'
+        'message' => 'Message',
+        'contact' => 'Contact number',
+        'address' => 'Office address',
     ],
     'send' => 'Send Message',
     'contact' => [
@@ -76,5 +78,38 @@
         'button' => 'Buy Now',
         'outofstock' => 'Product is out of stock',
         'orderplaced' => 'Your order has been placed!',
+    ],
+    'footer' => [
+        'txt1' => 'Information',
+        'txt2' => 'Quick links',
+        'terms' => 'Terms of Service',
+        'conditions' => 'Terms & Conditions',
+        'policy' => 'Privacy Policy',
+        'return' => 'Return Policy',
+        'home' => 'Home',
+        'about' => 'About Us',
+        'purchase' => 'Purchase',
+        'contact' => 'Contact Us',
+        'copyright' => 'Copyright &copy '.date('Y').' All rights reserved'
+    ],
+    "about" => [
+        'heading' => 'About ThePrimeHQ LTD',
+        'text' => 'Welcome to ThePrimeHQ LTD, your premier source for high-quality car care and bath products. ThePrimeHQ LTD is registered in the United Kingdom and specializes in delivering quality products to customers in the UK and Germany via this website and Amazon.de. Our service is currently only available in Germany.',
+        'number' => '<strong>Company House Number:</strong> SC812138',
+        'address' => '<strong>Registered at:</strong> 5 South Charlotte Street, Edinburgh, Scotland, United Kingdom, EH2 4AN',
+        'point1' => [
+            'head' => 'Why Shop with Us?',
+            'p1' => 'Quality Assurance: Premium products tested for effectiveness',
+            'p2' => 'Convenient Shopping: Available on Amazon.de and website',
+            'p3' => 'Eco-Friendly: Natural ingredients and recyclable packaging',
+            'p4' => 'Customer Satisfaction: Dedicated support team ready to assist',
+            'p5' => 'Quick Delivery: Next day delivery all over germany and UK (coming soon)'
+        ],
+        'point2' => [
+            'head' => 'Connect with Us',
+            'p1' => 'Website: theprimehq.com',
+            'p2' => 'Instagram: @ThePrimeHQLTD',
+            'p3' => 'Amazon (Germany): https://amazon.de/theprimehq',
+        ],
     ]
 ];
