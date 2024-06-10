@@ -111,5 +111,18 @@
             'p2' => 'Instagram: @ThePrimeHQLTD',
             'p3' => 'Amazon (Germany): https://amazon.de/theprimehq',
         ],
+    ],
+    'order' => [
+        'cancel' => [
+            'heading' => 'Sad to See You Go!',
+            'para' => 'Your order has been canceled'
+        ],
+        'success' => [
+            'heading' => 'Congratulations!',
+            'para' => 'Your order has been successfully placed',
+            'para1' => "What's NEXT?",
+            'para2' => 'Kindly proceed to the tracking section to check the status of your order',
+            'para3' => 'In addition, we have sent you an email containing your Order ID, so you can easily retrieve it in case of loss',
+        ]
     ]
 ];

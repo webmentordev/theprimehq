@@ -109,5 +109,18 @@ return [
             'p2' => 'Instagram: @ThePrimeHQLTD',
             'p3' => 'Amazon (Deutschland): https://amazon.de/theprimehq',
         ]
+    ],
+    'order' => [
+        'cancel' => [
+            'heading' => 'Traurig dich gehen zu sehen!',
+            'para' => 'Ihre Bestellung wurde storniert'
+        ],
+        'success' => [
+            'heading' => 'Glückwunsch!',
+            'para' => 'Ihre Bestellung wurde erfolgreich aufgegeben',
+            'para1' => 'Was kommt als nächstes?',
+            'para2' => 'Bitte gehen Sie zum Abschnitt Sendungsverfolgung, um den Status Ihrer Bestellung zu überprüfen',
+            'para3' => 'Darüber hinaus haben wir Ihnen eine E-Mail mit Ihrer Bestellnummer gesendet, damit Sie diese im Falle eines Verlusts problemlos abrufen können',
+        ]
     ]
 ];

@@ -16,6 +16,10 @@ return [
     'name' => env('APP_NAME', 'Laravel'),
 
     'storage' => env('STORAGE', './public/storage'),
+    
+    'stripe' => env('STRIPE', ''),
+
+    'product' => env('PRODUCT_STRIPE', ''),
 
     'contact' => env('CONTACT', ''),
     

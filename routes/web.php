@@ -6,6 +6,8 @@ use App\Livewire\Contact;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DashboardController;
+use App\Livewire\Order\Cancel;
+use App\Livewire\Order\Success;
 use App\Livewire\Purchase;
 
 Route::group(['prefix' => '{locale}', 'where' => ['locale' => '[a-zA-Z]{2}']], function () {
@@ -13,6 +15,10 @@ Route::group(['prefix' => '{locale}', 'where' => ['locale' => '[a-zA-Z]{2}']], f
     Route::get('/about', About::class)->name('about');
     Route::get('/contact', Contact::class)->name('contact');
     Route::get('/purchase', Purchase::class)->name('purchase');
+
+    Route::get('/success/{order:checkout_id}', Success::class)->name('success');
+    Route::get('/cancel/{order:checkout_id}', Cancel::class)->name('cancel');
+
 });
 
 Route::middleware(['auth', 'verified'])->group(function () {
