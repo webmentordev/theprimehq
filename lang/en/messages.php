@@ -12,7 +12,7 @@
         'privacy' => 'Privacy Policy',
     ],
     'shipping' => 'Free next day delivery across Germany & UK (coming soon) 🚚',
-    'heading' => 'Buy Professional <br> Car Cleaning and Bath Products',
+    'heading' => 'Purchase professional <br> car care products',
     'header' => 'Scratch free microfiber cleaning cloths for car and bath, delivered next day within Germany',
     'quality' => 'Scratch free Car and Bath Towels',
     'features' => [

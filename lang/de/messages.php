@@ -8,7 +8,7 @@ return [
         'contact' => 'Kontaktiere uns'
     ],
     'shipping' => 'Kostenlose Lieferung am nächsten Tag in ganz Deutschland 🚚',
-    'heading' => 'Kaufen Sie professionelle <br> Autopflege- und Badeprodukte',
+    'heading' => 'Kaufen Sie professionelle <br> Autopflegeprodukte',
     'header' => 'Kratzfreie Mikrofaser-Reinigungstücher für Auto und Bad werden innerhalb Deutschlands am nächsten Tag versendet',
     'quality' => 'Kratzfreie Auto- und Badetücher',
     'features' => [
