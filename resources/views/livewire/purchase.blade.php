@@ -31,11 +31,33 @@
                     x-init="console.log()">
             </div>
         </div>
-        <div class="w-full">
-            <h1 class="text-5xl mb-1">Microfiber Towel Car Drying detailing polishing Absorbent Towel Car Seat Wash
+        <div class="w-full pt-8" x-data="{ quantity: 1 }">
+            <h1 class="text-4xl mb-5">Microfiber Towel Car Drying detailing polishing Absorbent Towel Car Seat Wash
                 Towel</h1>
-            <h3 class="text-3xl mb-3"><span class="text-primary">€9.99</span> (Free Shipping)</h3>
-            <button wire:click='store'>Checkout</button>
+            <h3 class="text-3xl mb-3"><span class="text-primary">€<span x-text="9.99 * quantity"></span></span>
+                (Kostenloser
+                Versand)</h3>
+            <ul class="list-disc ml-8 mb-4">
+                <li class="mb-2">{{ __('messages.features.f1') }}</li>
+                <li class="mb-2">{{ __('messages.features.f2') }}</li>
+                <li class="mb-2">{{ __('messages.features.f3') }}</li>
+                <li class="mb-2">{{ __('messages.features.f4') }}</li>
+                <li class="mb-2">{{ __('messages.features.f5') }}</li>
+                <li class="mb-2">{{ __('messages.features.f6') }}</li>
+                <li class="mb-2">{{ __('messages.features.f7') }}</li>
+                <li class="mb-2">{{ __('messages.features.f8') }}</li>
+            </ul>
+            <div class="w-full mb-3">
+                <x-input-label for="email" :value="__('messages.form.email')" />
+                <x-input id="email" type="email" wire:model='email' />
+                <x-input-error :messages="$errors->get('email')" class="mt-2" />
+            </div>
+            <button wire:click='store'
+                class="px-4 py-3 bg-dark rounded-lg w-full text-center text-white font-semibold flex items-center justify-center">
+                <img src="https://api.iconify.design/fa6-brands:stripe.svg?color=%23ffffff" alt="Stripe logo"
+                    width="50px">
+                <span class="ml-2"> | {{ __('messages.purchase.pay') }}</span>
+            </button>
         </div>
     </div>
 </section>

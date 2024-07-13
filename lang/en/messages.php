@@ -1,6 +1,6 @@
 <?php
- 
- return [
+
+return [
     'navbar' => [
         'home' => 'Home',
         'about' => 'About Us',
@@ -76,12 +76,14 @@
     'processing' => 'processing...',
     'purchase' => [
         'button' => 'Buy Now',
+        'pay' => 'Click & Pay',
         'outofstock' => 'Product is out of stock',
         'orderplaced' => 'Your order has been placed!',
     ],
     'footer' => [
         'txt1' => 'Information',
         'txt2' => 'Quick links',
+        'para' => 'ThePrimeHQ is a car care accessories and bath products seller store based in Germany.',
         'terms' => 'Terms of Service',
         'conditions' => 'Terms & Conditions',
         'policy' => 'Privacy Policy',
@@ -90,7 +92,7 @@
         'about' => 'About Us',
         'purchase' => 'Purchase',
         'contact' => 'Contact Us',
-        'copyright' => 'Copyright &copy '.date('Y').' All rights reserved'
+        'copyright' => 'Copyright &copy ' . date('Y') . ' All rights reserved'
     ],
     "about" => [
         'heading' => 'About ThePrimeHQ LTD',

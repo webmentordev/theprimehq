@@ -1,5 +1,5 @@
 <?php
- 
+
 return [
     'navbar' => [
         'home' => 'Heim',
@@ -74,12 +74,14 @@ return [
     'processing' => 'wird bearbeitet...',
     'purchase' => [
         'button' => 'Jetzt Kaufen',
+        'pay' => 'Jetzt klicken und kaufen',
         'outofstock' => 'Das Produkt ist nicht vorrätig',
         'orderplaced' => 'Deine Bestellung wurde aufgenommen!',
     ],
     'footer' => [
-        'txt1'=> 'Information',
-        'txt2'=> 'Quicklinks',
+        'txt1' => 'Information',
+        'txt2' => 'Quicklinks',
+        'para' => 'ThePrimeHQ ist ein in Deutschland ansässiger Verkäufer von Autopflegezubehör und Badeprodukten',
         'terms' => 'Nutzungsbedingungen',
         'conditions' => 'Terms & Bedingungen',
         'policy' => 'Datenschutzrichtlinie',
@@ -88,7 +90,7 @@ return [
         'about' => 'Über uns',
         'purchase' => 'Kaufen',
         'contact' => 'Kontaktiere uns',
-        'copyright' => 'Copyright &copy '.date('Y').' Alles reserviert'
+        'copyright' => 'Copyright &copy ' . date('Y') . ' Alles reserviert'
     ],
     "about" => [
         'heading' => 'Über ThePrimeHQ LTD',
