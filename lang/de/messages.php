@@ -75,8 +75,10 @@ return [
     'purchase' => [
         'button' => 'Jetzt Kaufen',
         'pay' => 'Jetzt klicken und kaufen',
+        'limit' => 'Der Kauf ist nur auf <strong>10</strong> Stück begrenzt',
         'outofstock' => 'Das Produkt ist nicht vorrätig',
         'orderplaced' => 'Deine Bestellung wurde aufgenommen!',
+        'ourofstock' => 'Das Produkt ist nicht vorrätig'
     ],
     'footer' => [
         'txt1' => 'Information',

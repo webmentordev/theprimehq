@@ -18,10 +18,14 @@
         <div>
             <h3 class="text-2xl text-primary mb-5 font-bold">{{ __('messages.footer.txt2') }}</h3>
             <ul class="flex flex-col text-gray-100">
-                <a class="mb-3 hover:text-primary hover:ml-4" href="/">{{ __('messages.footer.home') }}</a>
-                <a class="mb-3 hover:text-primary hover:ml-4" href="/">{{ __('messages.footer.about') }}</a>
-                <a class="mb-3 hover:text-primary hover:ml-4" href="/">{{ __('messages.footer.purchase') }}</a>
-                <a class="hover:text-primary hover:ml-4" href="/">{{ __('messages.footer.contact') }}</a>
+                <a class="mb-3 hover:text-primary hover:ml-4"
+                    href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('messages.footer.home') }}</a>
+                <a class="mb-3 hover:text-primary hover:ml-4"
+                    href="{{ route('about', ['locale' => app()->getLocale()]) }}">{{ __('messages.footer.about') }}</a>
+                <a class="mb-3 hover:text-primary hover:ml-4"
+                    href="{{ route('purchase', ['locale' => app()->getLocale()]) }}">{{ __('messages.footer.purchase') }}</a>
+                <a class="hover:text-primary hover:ml-4"
+                    href="{{ route('contact', ['locale' => app()->getLocale()]) }}">{{ __('messages.footer.contact') }}</a>
             </ul>
         </div>
         <div>

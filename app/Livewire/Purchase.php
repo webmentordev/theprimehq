@@ -13,7 +13,7 @@ class Purchase extends Component
 {
     public $email = "";
 
-    public $quantity = 1, $outOfStock = false, $price = 9.99, $currency = 'EUR';
+    public $quantity = 1, $outOfStock = true, $price = 9.99, $currency = 'EUR';
 
     public function render()
     {
@@ -39,8 +39,12 @@ class Purchase extends Component
     }
     private function checkout()
     {
+        if ($this->outOfStock) {
+            return;
+        }
+
         $this->validate([
-            'email' => ['required', 'max:255']
+            'email' => ['required', 'max:255', 'email']
         ]);
 
         $checkoutID = $this->randomCheckout();

@@ -77,8 +77,10 @@ return [
     'purchase' => [
         'button' => 'Buy Now',
         'pay' => 'Click & Pay',
+        'limit' => 'Purchase is only limited to <strong>10</strong>',
         'outofstock' => 'Product is out of stock',
         'orderplaced' => 'Your order has been placed!',
+        'ourofstock' => 'Product is out of stock'
     ],
     'footer' => [
         'txt1' => 'Information',
